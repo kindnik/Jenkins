@@ -1,1 +1,2 @@
 # Jenkins project
+maven_selenide_allure_jenkins
