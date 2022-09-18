@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.$x;
 public class Записаться_на_курс {
 
     public Записаться_на_курс() {
-        SelenideElement nameForm = $x("//span[@class='el-dialog__title']");
+        SelenideElement nameForm = $x("//span[@class='el-dialog__title1']");
         Assertions.assertEquals("Записаться на курс", nameForm.getText(), "Неверная форма");
     }
 
