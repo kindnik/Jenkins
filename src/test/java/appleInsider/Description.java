@@ -10,7 +10,7 @@ public class Description {
     public Description() {
     }
 
-    private final SelenideElement level = $x("//a[@class='title dropdown-link']");
+    private final SelenideElement level = $x("//a[@class='title dropdown-link88']");
     private final SelenideElement levelJunior = $x("//a[text()='Junior']");
     private final SelenideElement chooseKurs = $x("//a[text()='Введение в Apache Maven']");
 
