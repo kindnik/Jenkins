@@ -2,6 +2,7 @@ package appleInsider;
 
 
 import core.BaseSelenideTest;
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.Test;
 
 import static appleInsider.Counries.ЧЕЛЯБИНСКАЯ_ОБЛАСТЬ_МАГНИТОГОРМК;
@@ -16,6 +17,7 @@ public class AppleTest extends BaseSelenideTest {
 
 
     @Test
+    @Owner("Oshurkov Nikita")
     public void checkHref() {
 //        MainPage mainPage = new MainPage(BASE_URL);
 //        SearchPage search = mainPage.search(SEARCH_STRING);
